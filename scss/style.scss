@@ -1,43 +1,7 @@
 @import 'normalize';
 @import 'syntax';
-
-
-html, body{
-  height:100%;
-  width:100%;
-  overflow-x:hidden;
-  background:#fefefe;
-  color:#333;
-}
-
-img {
-  max-width:100%;
-}
-
-body{
-  font-weight:300;
-  line-height:1.5;
-  margin:0;
-}
-
-
-.site__wrapper{
-  width:80%;
-  padding:3em 0 5em 0;
-  max-width:45em;
-  margin:auto;
-}
-
-blockquote{
-  border-left:5px solid #ddd;
-  padding-left:1em;
-  font-style:italic;
-}
-
-code {
-  padding:.25em;
-  border-radius:3px;
-}
- pre code {
-   display:block;
- }
+@import 'header';
+@import 'layout';
+@import 'home';
+@import 'theme';
+@import 'type';

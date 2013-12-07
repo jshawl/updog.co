@@ -1,0 +1,25 @@
+html {
+  height:100%;
+}
+
+html, body{
+  width:100%;
+  overflow-x:hidden;
+}
+
+img {
+  max-width:100%;
+}
+
+body{
+  font-weight:300;
+  line-height:1.5;
+  margin:0;
+}
+
+.site__wrapper{
+  width:80%;
+  padding:6em 0 5em 0;
+  max-width:45em;
+  margin:auto;
+}

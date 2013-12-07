@@ -23,6 +23,19 @@
 
 ;(function(){
 	$(function(){
+	var lastScrollTop = 0;
+	$(window).bind('scroll', function(event){
+	   var st = $(this).scrollTop();
+	   console.log(st);
+	   if (st > lastScrollTop && st > 50){
+	       console.log('here');
+	       $('header').addClass('hidden');
+	   } else {
+	      console.log('maybe here');
+	      $('header').removeClass('hidden');
+	   }
+	   lastScrollTop = st;
+	});
 
 	});
 })(jQuery);

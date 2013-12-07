@@ -1,0 +1,12 @@
+body{
+    font-weight:300;
+    line-height:1.5;
+}
+
+.posts li {
+    font-size:2em;
+    font-weight:bold;
+    @media all and (max-width:30em){
+	font-size:1em;
+    }
+}

@@ -67,3 +67,12 @@ pre code { border:none; display:block;overflow:scroll;}
 .highlight .vi { color: teal; }
 .highlight .il { color: #009999; }
 .highlight .gc { color: #999; background-color: #EAF2F5; }
+
+code {
+  padding:.25em;
+  border-radius:3px;
+}
+ pre code {
+   display:block;
+ }
+

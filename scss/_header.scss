@@ -1,0 +1,28 @@
+ .site__header{
+   padding-left:1em;
+   border-bottom:1px solid #ddd;
+   box-shadow:0px 0px 3px #eee;
+   position:fixed;
+   top:0;
+   width:100%;
+   background:#fff;
+   background:rgba(white, .975);
+   transition:all .25s ease;
+   h1{
+     margin:.25em 0;
+     font-size:1.5em;
+   }
+ }
+
+.logo {
+  color:inherit;
+  text-decoration:none;
+  background-image:url(/img/updog.png);
+  background-repeat:no-repeat;
+  background-size:25px;
+  padding-left:45px;
+}
+
+.site__header.hidden{
+  opacity:0;
+}

@@ -1,0 +1,18 @@
+$black: #333;
+
+html, body{
+  background-color:#fefefe;
+  color:$black;
+}
+
+blockquote{
+  border-left:5px solid #ddd;
+  padding-left:1em;
+  font-style:italic;
+}
+
+.posts li a {
+  color:#fff;
+  background:$black;
+  color:#fff;
+}
