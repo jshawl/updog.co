@@ -4,7 +4,7 @@
    */
 
 code, .highlight pre, pre, .highlight .hll { background-color: #f8f8f8; border: 1px solid #ccc; padding: 6px 10px; border-radius: 3px; }
-pre code { border:none; display:block;white-space:pre; }
+pre code { border:none; display:block;overflow:scroll;}
 .highlight .c { color: #999988; font-style: italic; }
 .highlight .err { color: #a61717; background-color: #e3d2d2; }
 .highlight .k { font-weight: bold; }
