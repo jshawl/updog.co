@@ -11,6 +11,7 @@
 		    $('header').removeClass('hidden');
 		    lastScrollTop = st;
 		}
+	    }
 	});
     });
 })(jQuery);
